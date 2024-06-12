@@ -35,3 +35,5 @@ def test_shortest_path_6():
     path_edges, path_length = calc_shortest_path(G, 'and', 'ww')
     assert path_edges == [ ], path_edges
     assert path_length == 0, path_length
+    
+    
